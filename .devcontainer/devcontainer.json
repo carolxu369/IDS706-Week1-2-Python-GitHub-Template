@@ -1,0 +1,10 @@
+{
+  "name": "Python Development",
+  "image": "python:3.9",
+  "extensions": ["ms-python.python"],
+  "settings": {
+    "pythonPath": "/usr/local/bin/python"
+  },
+  "forwardPorts": [8000],
+  "postCreateCommand": "pip install -r requirements.txt"
+}
