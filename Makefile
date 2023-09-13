@@ -15,3 +15,7 @@ lint:
 clean:
     deactivate || true
     rm -rf venv
+
+# Run the Python script
+run-script:
+    python descriptive.py
