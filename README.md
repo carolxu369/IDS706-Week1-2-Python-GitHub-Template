@@ -5,8 +5,7 @@ This is a Python GitHub Template Repository that includes the following contents
 - A Makefile with commands for setup, testing, and linting
 - GitHub Actions for CI/CD
 - A requirements.txt for project dependencies
-- A README.md with setup and usage instructions.
-
+- A README.md with setup and usage instructions
 ## Prerequisites
 
 You need to meet following requirements:
