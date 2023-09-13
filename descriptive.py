@@ -35,9 +35,3 @@ plt.show()
 print(f"Mean: {mean}")
 print(f"Median: {median}")
 print(f"Standard Deviation: {std_dev}")
-
-
-
-
-
-
