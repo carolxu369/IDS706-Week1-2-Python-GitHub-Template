@@ -16,6 +16,6 @@ clean:
     deactivate || true
     rm -rf venv
 
-# Run the Python script
-run-script:
-    python descriptive.py
+# # Run the Python script
+# run-script:
+#     python descriptive.py
