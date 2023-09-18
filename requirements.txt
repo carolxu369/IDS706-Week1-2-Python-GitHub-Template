@@ -1,4 +1,5 @@
-pytest==6.2.5    
-flake8==4.0.1    
-black==21.9b0        
-requests==2.26.0   
+matplotlib
+pandas
+pytest
+pylint
+seaborn

@@ -1,21 +1,13 @@
-# Setup virtual environment and install dependencies
 setup:
     python -m venv venv
-    source venv/bin/activate && pip install -r requirements.txt
+    source venv/bin/activate
+    pip install -r requirements.txt
 
-# Run tests
 test:
-    source venv/bin/activate && pytest
+    python -m pytest
 
-# Lint the code
 lint:
-    source venv/bin/activate && flake8 .
+    pylint descriptive.py
 
-# Clean up virtual environment and generated files
 clean:
-    deactivate || true
-    rm -rf venv
-
-# # Run the Python script
-# run-script:
-#     python descriptive.py
+    rm -rf venv __pycache__
