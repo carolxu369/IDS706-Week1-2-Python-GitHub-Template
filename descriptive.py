@@ -1,9 +1,11 @@
+"""This module contains functions for data analysis using Pandas."""
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-file_path = 'grade.xlsx'
-df = pd.read_excel(file_path)
+FILE_PATH = 'grade.xlsx'
+df = pd.read_excel(FILE_PATH)
 
 mean = df['grade'].mean()
 median = df['grade'].median()
